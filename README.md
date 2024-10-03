@@ -12,4 +12,4 @@ You can use the docker image with
 docker run ghcr.io/amrsaber/under-construction
 ```
 
-The docker image uses [miniserve](https://github.com/svenstaro/miniserve) to serve the static files.
+The docker image uses [miniserve](https://github.com/svenstaro/miniserve) to serve the static files. The image uses and exposes port `80` by default, you change the port using `PORT` env variable. 
