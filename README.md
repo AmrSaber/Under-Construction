@@ -1,10 +1,10 @@
 # Under Construction
 A small and simple app to be used as a place holder until the real app is released.
+![Demo GIF](images/demo.gif)
 
 ## Usage
 ### Manual
 Just use any server to serve static files found in `static` directory.
-![Demo GIF](images/demo.gif)
 
 ### Docker
 You can use the docker image with
