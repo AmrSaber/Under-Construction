@@ -5,7 +5,7 @@ WORKDIR /app
 # Install miniserve to serve the static files
 RUN apk add miniserve curl
 
-HEALTHCHECK CMD curl -f "localhost:$PORT" || exit 1
+HEALTHCHECK --interval=5s --start-period=30s --start-interval=1s CMD curl -f "localhost:$PORT" || exit 1
 
 ENV PORT="80"
 EXPOSE $PORT
